@@ -9,13 +9,13 @@ int main(){
 	scanf("%d", &z);
 	sum=x+y+z;
 	avg=sum/3;
-	if(avg>85){
+	if(avg>=85){
 	printf("high achiever");
 }
-	else if(70>avg<85){
+	else if(avg>=70 && avg<=85){
 	printf("pass");
 }
-	else if(avg<70){
+	else if(avg=<70){
 	printf("needs an improvement");
 }
 return 0;
